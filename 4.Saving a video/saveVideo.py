@@ -10,7 +10,7 @@ while(videoObject.isOpened()):
     ret, frame = videoObject.read()
     
     if ret == True:
-        #frame = cv2.flip(frame,0)
+        #frame = cv2.flip(frame,0)   # for flipping frame
 
         print(frame)        #prints captured video stream on console
         out.write(frame)
