@@ -25,4 +25,5 @@ while(videoObject.isOpened()):
 
 
 videoObject.release()
+out.release()
 cv2.destroyAllWindows()
