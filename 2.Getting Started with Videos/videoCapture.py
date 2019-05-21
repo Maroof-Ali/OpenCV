@@ -16,6 +16,9 @@ while(True):
 
     #display frame
     cv2.imshow("FRAME", gray)
+
+    # save Frame
+    cv2.imwrite("captured_frame.jpg", gray)
     
     if cv2.waitKey(0):
         break
